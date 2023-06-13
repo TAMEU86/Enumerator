@@ -1,0 +1,65 @@
+
+body {
+  background-image: url("plaid.png");
+  background-size: cover;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  height: 100vh;
+}
+
+main {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.container {
+  background: rgb(245, 242, 242);
+  max-width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  padding: 10px;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#increment-btn {
+  background: blue;
+}
+
+#save-btn {
+  background: green;
+}
+
+#save-el {
+  font-weight: bolder;
+}
+
+
+
+
